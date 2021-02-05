@@ -191,3 +191,63 @@ body section {
     display: none;
   }
 }
+
+
+.myDiv {
+    padding-left: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100px;
+    width: 450px;
+    color: white;
+    background-color: #900C3F;    
+    }
+    .btn:link{
+    text-decoration-line: none; 
+    }
+    .btn:hover{
+        text-decoration-line: underline; 
+        color: darkblue; 
+        align-items: center;
+        border: 4px;
+    }
+    #myTag{
+    padding-left: 50px;   
+    }
+    #d1{
+        position: absolute;
+        left: 0;
+    }    
+    #d2{
+        position: absolute;
+       right: 0; 
+    }
+    #d3{
+        position: absolute;
+        left: 0; 
+    }    
+    #d4{
+        position: absolute;
+        right: 0; 
+    }
+    #d5{
+        position: absolute;
+        left: 0;
+    }    
+    #d6{
+        position: absolute;
+       right: 0; 
+    }
+    #d7{
+        position: absolute;
+        left: 0; 
+    }    
+    #d8{
+        position: absolute;
+        right: 0; 
+    }
+    #d9{
+        position: absolute;
+        left: 0; 
+    }
+
