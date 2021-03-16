@@ -15,6 +15,8 @@
 html,body{
     margin: 0;
     padding: 0;
+    background-color: black;
+    color: black; 
 }
 .main-header{
     background-color: rgba(0, 0, 0, 0.2);
@@ -38,7 +40,9 @@ html,body{
 }
 
 .nav a:hover{
-    background-color: rgba(255, 255, 255, .3);
+/*    background-color: rgba(255, 255, 255, .3);*/
+    color: black;
+    background-color: orange;
 }
 
 .main-nav{
@@ -51,6 +55,18 @@ html,body{
 .main-nav li{
     padding: 0 3%;
 }
+@keyframes example {
+  0%   {color: red;}
+  65%  {color: yellow;}
+  75%  {color: aqua;}
+  87% {color: green;}
+  90%   {color: coral;}
+  70%  {color: orange;}
+  80%  {color: teal;}
+  90% {color: darkgreen;}
+}
+
+
 .name-main{
     text-align: center;
     margin: 0%;
@@ -59,11 +75,15 @@ html,body{
     color: seashell;
     font-weight: normal;
     font-style: normal;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
 
 }
 .name-main-small{
     font-size: 3em;
     align-self: baseline;
+    
 }
 .name-main-2{
     text-align: center;
@@ -78,9 +98,12 @@ html,body{
 .section-header{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     font-weight: normal;
-    color: 333;
+    color: orange;
     text-align: center;
     font-size: 2.5em;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 .section-header-2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
@@ -188,31 +211,35 @@ body section {
 
   .panel:nth-of-type(4),
   .panel:nth-of-type(5){
-    display: none;
+   display: none;
   }
 }
 
 
-.myDiv {
+.myDiv{    
     padding-left: 8px;
     margin-left: 20px;
     margin-right: 20px;
     height: 100px;
     width: 450px;
-    color: white;
-    background-color: #900C3F;    
+    background-color: aqua;
+    border-radius: 65px; 
+    color: blue;
     }
+ 
     .btn:link{
-    text-decoration-line: none; 
+     text-decoration-line: none; 
+    
     }
     .btn:hover{
         text-decoration-line: underline; 
-        color: darkblue; 
+        color: blue; 
         align-items: center;
-        border: 4px;
+        border: 2px;
+        font-size: 30px;
     }
-    #myTag{
-    padding-left: 50px;   
+    #myTag{    
+    padding-left: 50px;     
     }
     #d1{
         position: absolute;
